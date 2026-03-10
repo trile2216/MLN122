@@ -13,8 +13,8 @@ export default function Header() {
           <a className="text-white hover:text-accent text-sm font-medium transition-colors" href="#">TRANG CHỦ</a>
           <a className="text-white hover:text-accent text-sm font-medium transition-colors" href="#dac-diem">5 ĐẶC ĐIỂM</a>
           <a className="text-white hover:text-accent text-sm font-medium transition-colors" href="#doc-quyen">ĐỘC QUYỀN NHÀ NƯỚC</a>
+                    <a className="text-white hover:text-accent text-sm font-medium transition-colors" href="#kiem-tra">KIỂM TRA</a>
           <a className="text-white hover:text-accent text-sm font-medium transition-colors" href="#tai-lieu">TÀI LIỆU</a>
-          <a className="text-white hover:text-accent text-sm font-medium transition-colors" href="#kiem-tra">KIỂM TRA</a>
         </nav>
       </div>
 
