@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Public+Sans:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.hero-title {
+  font-family: 'Dancing Script', cursive;
+  color: #D4AF37;
+}
+
+/* Quiz option buttons */
+.quiz-option {
+  @apply p-4 border-2 border-slate-200 dark:border-slate-700 rounded-lg text-left
+         hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors font-medium cursor-pointer;
+}
+
+.quiz-option.correct {
+  @apply bg-green-500 text-white border-green-500;
+}
+
+.quiz-option.incorrect {
+  @apply bg-red-500 text-white border-red-500;
+}
+
+/* Feature card hover effect */
+.feature-card {
+  @apply flex flex-col items-center text-center p-6 bg-white dark:bg-slate-800
+         rounded-xl shadow-md border-t-4 border-primary transition-all;
+}
+
+.feature-card:hover {
+  transform: translateY(-0.5rem);
+}
